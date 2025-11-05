@@ -1,25 +1,47 @@
+/* Global Page Layout */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     max-width: 900px;
     margin: auto;
     padding: 20px;
-    line-height: 1.6;
+    line-height: 1.7;
+    color: #222;
 }
 
+/* Header Section */
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 h1 {
-    margin-bottom: 5px;
+    font-size: 32px;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
 }
 
-h2 {
-    margin-top: 20px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+p {
+    margin: 6px 0;
 }
+
+/* Section Styling */
+h2 {
+    margin-top: 25px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+    font-size: 22px;
+}
+
 ul {
     padding-left: 20px;
+    margin-top: 8px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Smooth spacing between sections */
+section {
+    margin-bottom: 20px;
 }
